@@ -1,0 +1,20 @@
+{
+  "name": "rooster-grin-test",
+  "version": "1.0.0",
+  "description": "rooster grin webpage",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scss": "node-sass --watch scss -o css"
+  },
+  "author": "Elaine Chesoni",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "materialize-css": "^1.0.0-rc.2"
+  },
+  "devDependencies": {
+    "ember-cli-materialize": "^0.22.0"
+  }
+}

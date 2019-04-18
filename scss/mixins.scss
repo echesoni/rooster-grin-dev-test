@@ -1,0 +1,55 @@
+// Mixins
+
+@mixin text-1 {
+  padding: 5em;
+  h1 {
+    font-family: 'Roboto', serif;
+    margin: 0;
+    color: $deep-purple;
+    text-transform: uppercase;
+    font-size: $section-heading;
+    font-weight: bolder;
+    letter-spacing: 0.1em;
+  }
+}
+
+@mixin text-2 {
+  padding: 5em;
+  h1 {
+    margin: 0;
+    color: $blue-grey;
+    text-transform: uppercase;
+    font-size: $section-heading;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+  }
+}
+
+@mixin icon-small {
+  height: 4em;
+  width: 4em;
+}
+
+@mixin icon-med {
+  height: 6em;
+  width: 6em;
+}
+
+@mixin flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@mixin mQ($arg...) {
+  @if length($arg) == 1 {
+    @media screen and (max-width: nth($arg, 1)){
+      @content;
+    }
+  }
+  // @if length($arg) == 2{
+  //   @media screen and (max-width: nth($arg, 1)) and (min-width: nth($arg, 2)){
+  //     @content;
+  //   }
+  // }
+}
