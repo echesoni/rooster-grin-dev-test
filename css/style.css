@@ -6652,7 +6652,7 @@ header {
 .img-3 {
   background-image: url(../assets/banner-2.jpg);
   background-size: cover; }
-  @media screen and (max-width: 380px) {
+  @media screen and (max-width: 750px) {
     .img-3 {
       position: relative; }
       .img-3 .layer {

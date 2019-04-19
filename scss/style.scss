@@ -131,7 +131,7 @@ header {
 .img-3 {
   background-image: url(../assets/banner-2.jpg);
   background-size: cover;
-  @include mQ(380px) {
+  @include mQ(750px) {
     position: relative;
     .layer {
     background-color: rgba(207, 216, 220, 0.7);
