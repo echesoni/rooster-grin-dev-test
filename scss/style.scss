@@ -75,7 +75,7 @@ header {
   padding-bottom: 0;
   .text-format-1 {
     @include text-1;
-    @include mQ(380px) {
+    @include mQ(750px) {
       z-index: 1;
     }
   }
@@ -91,7 +91,7 @@ header {
       justify-content: flex-start;
     }
   }
-  @include mQ(380px) {
+  @include mQ(700px) {
     grid-template-columns: 100%;
   }
 }
